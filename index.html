@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Devansh Bhosale | Full-Stack Java Developer</title>
+  <meta name="description" content="The portfolio of Devansh Bhosale, a full-stack Java developer building tested products from API to interface.">
+  <meta name="theme-color" content="#ff8000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="is-locked">
+  <div class="noise" aria-hidden="true"></div>
+
+  <button class="transition" id="transition" type="button" aria-label="Load Devansh">
+    <canvas class="transition-canvas" id="transitionCanvas" aria-hidden="true"></canvas>
+    <span class="transition-mark" data-cfg="initials">DB</span>
+    <span class="transition-status"><span id="loadCount">000</span> / 100</span>
+    <span class="transition-enter roll-link" id="enterBtn">
+      <span class="roll-text"><span>LOAD DEVANSH</span><span>LOAD DEVANSH</span></span>
+    </span>
+  </button>
+
+  <header class="nav" data-nav>
+    <a class="nav-brand roll-link" href="#top" data-jump>
+      <span class="roll-text"><span data-cfg="fullName">DEVANSH BHOSALE</span><span data-cfg="fullName">DEVANSH BHOSALE</span></span>
+    </a>
+    <a class="nav-monogram" href="#top" data-jump aria-label="Home"><span data-cfg="initials">DB</span></a>
+    <div class="nav-actions">
+      <a class="nav-availability roll-link" href="#contact" data-jump>
+        <span class="roll-text"><span>AVAILABLE 2026</span><span>AVAILABLE 2026</span></span>
+      </a>
+      <button class="motion-toggle" id="motionToggle" type="button" aria-label="Turn motion off">MOTION ON</button>
+      <button class="nav-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="menu" id="menu" aria-hidden="true">
+    <div class="menu-art menu-art-left" id="menuArtLeft"></div>
+    <div class="menu-art menu-art-right" id="menuArtRight"></div>
+    <nav class="menu-links" aria-label="Main menu">
+      <a href="#top" data-jump data-menu-index="0"><span>HOME</span></a>
+      <a href="#work" data-jump data-menu-index="1"><span>WORK</span></a>
+      <a href="#about" data-jump data-menu-index="2"><span>ABOUT</span></a>
+      <a href="#experience" data-jump data-menu-index="3"><span>EXPERIENCE</span></a>
+      <a href="#contact" data-jump data-menu-index="4"><span>CONTACT</span></a>
+    </nav>
+    <p class="menu-note">FULL-STACK JAVA DEVELOPER</p>
+  </aside>
+
+  <main id="top">
+    <section class="hero-track" id="home">
+      <div class="hero-sticky">
+        <div class="hero-stage" id="heroStage">
+          <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+          <div class="hero-grid" aria-hidden="true"></div>
+          <div class="hero-copy">
+            <p class="hero-eyebrow" data-cfg="heroKicker">BUILDING PRODUCTS END TO END</p>
+            <h1 class="hero-title" aria-label="Devansh Bhosale">
+              <span class="hero-word hero-word-top" data-cfg="firstName">DEVANSH</span>
+              <span class="hero-word hero-word-bottom outline" data-cfg="lastName">BHOSALE</span>
+            </h1>
+            <div class="hero-meta">
+              <span data-cfg="role">Full-Stack Java Developer</span>
+              <span>INDIA / 2026</span>
+            </div>
+          </div>
+          <div class="hero-fluid-label">MOVE YOUR CURSOR</div>
+        </div>
+
+        <div class="hero-message">
+          <p>MESSAGE FROM DEVANSH</p>
+          <div class="hero-message-rule"></div>
+          <blockquote data-cfg="heroMessage">I turn ideas into tested products, from database design to the final interaction.</blockquote>
+          <svg class="drawn-signature" viewBox="0 0 440 100" aria-hidden="true">
+            <path d="M15 66 C65 12 84 94 132 45 C170 8 165 90 222 42 C270 4 286 87 340 44 C371 22 399 28 425 16" pathLength="1"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="about" data-nav-theme="light">
+      <div class="flourish" aria-hidden="true"><span>{</span><span>/</span><span>}</span></div>
+      <div class="manifesto-lines">
+        <p class="wipe-reveal">I BUILD <strong>ROBUST</strong> BACKENDS,</p>
+        <p class="wipe-reveal">SHARP INTERFACES AND</p>
+        <p class="wipe-reveal"><em>PRODUCTS THAT SHIP.</em></p>
+      </div>
+      <p class="manifesto-small" data-cfg="about"></p>
+    </section>
+
+    <section class="horizontal" id="work" data-horizontal data-nav-theme="dark">
+      <div class="horizontal-sticky">
+        <div class="horizontal-track" id="horizontalTrack">
+          <article class="horizontal-intro horizontal-panel">
+            <p>SELECTED WORK</p>
+            <h2>BUILT TO<br><span>HOLD UP.</span></h2>
+            <div class="orbit-mark" aria-hidden="true"><i></i><i></i><i></i></div>
+          </article>
+          <div id="projectStory"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="disciplines" data-disciplines data-nav-theme="dark">
+      <div class="discipline-top">
+        <article class="discipline-copy discipline-left">
+          <h2><span>ENGINEERING</span><strong>THE SYSTEM</strong></h2>
+          <p>APIs, data models, security, tests and deployment.</p>
+        </article>
+        <article class="discipline-copy discipline-right">
+          <h2><span>DESIGNING</span><strong>THE EXPERIENCE</strong></h2>
+          <p>Responsive interfaces, motion and clear user journeys.</p>
+        </article>
+      </div>
+      <div class="discipline-images">
+        <figure class="discipline-image discipline-image-left"><img src="https://picsum.photos/seed/java-engineering-system/1200/1500" alt="Engineering workspace placeholder"></figure>
+        <figure class="discipline-image discipline-image-right"><img src="https://picsum.photos/seed/product-interface-design/1200/1500" alt="Interface design placeholder"></figure>
+      </div>
+      <div class="discipline-bottom">
+        <img src="https://picsum.photos/seed/full-stack-product-build/2000/1200" alt="Full-stack product placeholder">
+        <p>ONE DEVELOPER. THE WHOLE PRODUCT.</p>
+      </div>
+    </section>
+
+    <section class="archive" data-nav-theme="dark">
+      <div class="archive-heading">
+        <div class="flourish mini" aria-hidden="true"><span>&lt;</span><span>DB</span><span>/&gt;</span></div>
+        <h2 class="wipe-reveal">PROJECT<br>ARCHIVE</h2>
+        <p>Selected products, experiments and systems.</p>
+      </div>
+      <div class="archive-grid" id="archiveGrid"></div>
+    </section>
+
+    <section class="callout" data-nav-theme="dark">
+      <div class="code-reef" aria-hidden="true">
+        <span class="reef-ring ring-one"></span><span class="reef-ring ring-two"></span><b>&lt;/&gt;</b>
+      </div>
+      <h2 class="wipe-reveal">SEE THE CODE.<br>TEST THE PRODUCT.</h2>
+      <a class="circle-link roll-link" data-cfg-href="github" href="#">
+        <span class="roll-text"><span>VIEW GITHUB</span><span>VIEW GITHUB</span></span>
+      </a>
+    </section>
+
+    <section class="feature" data-feature data-nav-theme="light">
+      <div class="feature-visor" id="featureVisor"></div>
+      <p class="feature-kicker">FEATURED CASE STUDY</p>
+      <h2>CHANNEL<br>HUB</h2>
+      <p>Reseller operations redesigned as one tested, role-aware platform.</p>
+      <a href="#" class="roll-link feature-link" data-project-link="2">
+        <span class="roll-text"><span>OPEN PROJECT</span><span>OPEN PROJECT</span></span>
+      </a>
+      <div class="feature-images" aria-hidden="true">
+        <figure><img src="https://picsum.photos/seed/channelhub-detail-one/800/1000" alt=""></figure>
+        <figure><img src="https://picsum.photos/seed/channelhub-detail-two/900/650" alt=""></figure>
+        <figure><img src="https://picsum.photos/seed/channelhub-detail-three/700/900" alt=""></figure>
+      </div>
+    </section>
+
+    <section class="skills" data-nav-theme="light">
+      <div class="skills-copy">
+        <h2>TOOLS &<br><span>TECHNOLOGIES</span></h2>
+        <p>Technologies I use to take a product from schema to screen.</p>
+      </div>
+      <div class="direction-marquee" id="skillsMarquee" aria-label="Technology list"></div>
+    </section>
+
+    <section class="social-fan" data-nav-theme="light">
+      <div class="fan-heading">
+        <p>MORE THAN A RESUME</p>
+        <h2>BEHIND<br>THE BUILDS</h2>
+      </div>
+      <div class="fan-wrap" id="fanWrap"></div>
+    </section>
+
+    <section class="experience" id="experience" data-nav-theme="light">
+      <h2 class="wipe-reveal">EXPERIENCE<br>& EDUCATION</h2>
+      <div class="experience-list" id="experienceList"></div>
+    </section>
+
+    <footer class="footer" id="contact" data-nav-theme="dark">
+      <div class="footer-mask" id="footerMask">
+        <div class="footer-glow" aria-hidden="true"></div>
+        <p>START A CONVERSATION</p>
+        <h2 class="wipe-reveal">ALWAYS<br>BUILDING<br>FORWARD.</h2>
+        <a class="footer-email roll-link" data-cfg="email" href="mailto:you@example.com">
+          <span class="roll-text"><span data-cfg="email">you@example.com</span><span data-cfg="email">you@example.com</span></span>
+        </a>
+        <div class="footer-bottom">
+          <div id="footerSocials"></div>
+          <span data-cfg="copyright">© 2026 Devansh Bhosale</span>
+          <a href="#top" data-jump>BACK TO TOP</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="js/content.js?v=3"></script>
+  <script src="js/main.js?v=10"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Backup / working files
+*.bak
+backup/
+FILL-ME.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vercel
