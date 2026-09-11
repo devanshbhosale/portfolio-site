@@ -25,9 +25,9 @@ window.SITE = {
       desc: "A live job platform for freshers with aggregated listings, structured search and a practical admin workflow.",
       tags: ["FULL-STACK", "LIVE PRODUCT"],
       img: "assets/jobkar.png",
-      altImg: "https://picsum.photos/seed/jobkar-product-detail/1500/1100",
-      archiveImg: "assets/arc-job.png",
-      archiveAltImg: "assets/altarc-job.png",
+      altImg: "assets/altarc-job@2x.png",
+      archiveImg: "assets/arc-job@2x.png",
+      archiveAltImg: "assets/altarc-job@2x.png",
       link: "https://jobkarbe.vercel.app/"
     },
     {
@@ -37,9 +37,9 @@ window.SITE = {
       desc: "An educational platform with course content, practice tools and a complete administration panel.",
       tags: ["SPRING BOOT", "MYSQL", "ADMIN"],
       img: "assets/abacus.png",
-      altImg: "https://picsum.photos/seed/success-abacus-detail/1500/1100",
-      archiveImg: "assets/arc-abacus.png",
-      archiveAltImg: "assets/altarc-abacus.png",
+      altImg: "assets/altarc-abacus@2x.png",
+      archiveImg: "assets/arc-abacus@2x.png",
+      archiveAltImg: "assets/altarc-abacus@2x.png",
       link: "https://success-abacus.onrender.com/"
     },
     {
@@ -49,9 +49,9 @@ window.SITE = {
       desc: "A role-aware reseller operations platform that unifies orders, stock, pricing and administration.",
       tags: ["JAVA", "REACT", "POSTGRESQL"],
       img: "assets/channel.png",
-      altImg: "https://picsum.photos/seed/channelhub-detail/1500/1100",
-      archiveImg: "assets/arc-channel.png",
-      archiveAltImg: "assets/altarc-channel.png",
+      altImg: "assets/altarc-channel@2x.png",
+      archiveImg: "assets/arc-channel@2x.png",
+      archiveAltImg: "assets/altarc-channel@2x.png",
       link: "#"
     },
     {
@@ -61,9 +61,9 @@ window.SITE = {
       desc: "A price-file guard that finds margin risks before new pricing reaches customers.",
       tags: ["SPRING BOOT", "JUNIT", "ANALYTICS"],
       img: "assets/margin.png",
-      altImg: "",
-      archiveImg: "assets/arc-margin.png",
-      archiveAltImg: "assets/altarc-margin.png",
+      altImg: "assets/altarc-margin@2x.png",
+      archiveImg: "assets/arc-margin@2x.png",
+      archiveAltImg: "assets/altarc-margin@2x.png",
       link: "#"
     }
   ],
