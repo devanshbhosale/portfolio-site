@@ -7,3 +7,6 @@ FILL-ME.md
 .DS_Store
 Thumbs.db
 .vercel
+
+.vercel
+.env*
